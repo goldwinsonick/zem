@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: #EA5455;
-  --background-rgb: #F9F5EB;
-  --font: bold 20em "Made Tommy Soft";
+  --fg1: black;
+  --bg1: white;
+  --font: bold 5em "Made Tommy Soft";
 }
 
 /* @media (prefers-color-scheme: light) {
@@ -16,7 +16,7 @@
 } */
 
 body {
-  color: var(--foreground-rgb);
-  background: var(--background-rgb);
+  color: var(--fg1);
+  background: var(--bg1);
   font : var(--font);
 }
